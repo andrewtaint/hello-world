@@ -9,37 +9,54 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #2c2f33;
             text-align: center;
+            color: #fff;
         }
         .container {
             max-width: 600px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #7289da;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
         h1 {
-            color: #333;
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 20px;
         }
         p {
-            color: #666;
+            color: #fff;
             line-height: 1.6;
+            margin-bottom: 10px;
         }
         .discord-username {
             font-size: 24px;
             font-weight: bold;
-            color: #7289da; /* Discord color */
+            color: #fff; 
+            background-color: #7289da;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>what up g</h1>
-        <p>what up</p>
-        <p>add me on discord the_real_drew</p>
-        <p class="discord-username">andrewtaint</p>
+        <h1>What's up, G?</h1>
+        <p>Hey there! Feel free to add me on Discord:</p>
+        <p><strong>Discord Username:</strong> <span class="discord-username">andrewtaint</span></p>
     </div>
 </body>
 </html>
